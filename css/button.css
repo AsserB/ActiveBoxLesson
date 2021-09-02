@@ -1,0 +1,17 @@
+.button{
+  background: #e84545;
+  padding: 18px 50px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+  color: #fff;
+  font-family: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.2s linear;
+}
+
+.button:hover{
+  background: #c03939;
+}
