@@ -1,0 +1,30 @@
+.options__content{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+
+.options__item{
+  width: 33.3333%;
+  text-align: center;
+  padding: 0 40px;
+  margin: 25px 0;
+}
+
+.options__icon{
+  margin-bottom: 25px;
+}
+
+.options__title{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #2d3033;
+}
+
+.options__text{
+  font-size: 14px;
+  color: #6c7279;
+  line-height: 1.5;
+}
