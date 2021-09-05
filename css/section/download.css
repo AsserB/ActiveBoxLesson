@@ -1,0 +1,26 @@
+.download__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.donwload__title{
+  font-weight: lighter;
+  font-size: 28px;
+  color: #2d3033;
+  margin-bottom: 20px;
+}
+
+.download__subtitle{
+  font-weight: bold;
+  font-size: 13px;
+  color: #2d3033;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.download__button{
+  display: flex;
+  justify-content: center;
+}

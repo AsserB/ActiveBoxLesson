@@ -1,0 +1,31 @@
+.socials{
+  display: flex;
+
+}
+
+.socials__icon{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e8ecee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  transition: background-color 0.2s linear;
+}
+
+.facebook--icon{
+  background: url(../img/icons/facebook.png) center no-repeat;
+}
+
+.twitter--icon{
+  background: url(../img/icons/twitter.png) center no-repeat;
+}
+
+.linkedin--icon{
+  background: url(../img/icons/linkedin.png) center no-repeat;
+}
+
+.socials__icon:hover{
+  background-color: #31344e;
+}

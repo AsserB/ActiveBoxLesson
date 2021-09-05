@@ -3,6 +3,11 @@
 @import url(./button.css);
 @import url(./section/options.css);
 @import url(./section/works.css);
+@import url(./section/team.css);
+@import url(./socials.css);
+@import url(./section/reviews.css);
+@import url(./section/download.css);
+@import url(./section/footer.css);
 
 
 body{
@@ -20,8 +25,9 @@ body{
 
 .container{
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1, h2, h3, h4, h5, h6{

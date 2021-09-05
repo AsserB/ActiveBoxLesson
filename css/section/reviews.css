@@ -1,0 +1,46 @@
+.reviews{
+  background-color: #53354a;
+  overflow: hidden;
+}
+
+.reviews__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews__photo{
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.reviews__img{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.reviews__content{
+  display: flex;
+  width: 50%;
+  padding-left: 80px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reviews__title{
+  font-family: "Cardo", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.reviews__subtitle{
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
